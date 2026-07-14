@@ -1,0 +1,10 @@
+.git
+.venv
+.env
+.env.example
+local.settings.json
+__pycache__
+*.py[oc]
+.superpowers
+docs
+test_client.py
