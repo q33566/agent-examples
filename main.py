@@ -15,7 +15,7 @@ load_dotenv()
 
 HOST = os.getenv("HOST", "localhost")
 PORT = int(os.getenv("PORT", "9999"))
-SERVER_URL = f"http://{HOST}:{PORT}/"
+SERVER_URL = os.getenv("SERVER_URL", f"http://{HOST}:{PORT}/")
 
 agent_card = AgentCard(
     name="General Assistant",

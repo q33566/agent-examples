@@ -12,3 +12,6 @@ wheels/
 # Environment files
 .env
 local.settings.json
+
+# Superpowers scratch/working files
+.superpowers/
